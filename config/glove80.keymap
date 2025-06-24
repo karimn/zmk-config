@@ -332,7 +332,7 @@
   &none   &none   &none   &none   &none   &none                                                    &none   &none   &none   &none   &none   &none
   &none   &none   &none   &none   &none   &none                                                    &none   &none   &kp LA(RG(I))   &none   &none   &none
   &none   &none   &none   &none   &none   &none                                                    &none   &none   &none   &none   &none   &none
-  &none   &none   &none   &kp LC(LS(C))   &none   &none                                                    &none   &kp LC(LA(N))   &kp LC(LS(M))   &none   &none   &none
+  &none   &none   &none   &kp LS(LC(C))   &none   &none                                                    &none   &kp LC(LA(N))   &kp LC(LS(M))   &none   &none   &none
   &none   &none   &none   &kp LC(LA(LEFT))   &kp LC(LA(RIGHT))           &none   &none   &none   &none   &none   &kp LS(LG(RET))          &none   &none   &none   &none   &none
             >;
         };
