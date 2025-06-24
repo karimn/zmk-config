@@ -61,7 +61,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&rgb_ug RGB_BRI>;
+                = <&kp K_APP>;
         };
     };
 };
@@ -332,8 +332,8 @@
   &none   &none   &none   &none   &none   &none                                                    &none   &none   &none   &none   &none   &none
   &none   &none   &none   &none   &none   &none                                                    &none   &none   &kp LA(RG(I))   &none   &none   &none
   &none   &none   &none   &none   &none   &none                                                    &none   &none   &none   &none   &none   &none
-  &none   &none   &none   &kp LS(LC(C))   &none   &none                                                    &none   &kp LC(LA(N))   &kp LC(LS(M))   &none   &none   &none
-  &none   &none   &none   &kp LA(LC(LEFT))   &kp LA(LC(RIGHT))           &none   &none   &none   &none   &none   &kp LS(LG(RET))          &none   &none   &none   &none   &none
+  &none   &none   &none   &kp LS(LC(C))   &none   &none                                                    &none   &kp LA(RC(N))   &kp LS(LC(M))   &none   &none   &none
+  &none   &none   &none   &kp LA(RC(LEFT))   &kp LA(RC(RIGHT))           &none   &none   &none   &none   &none   &kp LS(RG(RET))          &none   &none   &none   &none   &none
             >;
         };
 
