@@ -60,8 +60,7 @@
             label = "RGB_UG_STATUS";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&kp K_APP>;
+            bindings = <&rgb_ug RGB_STATUS>;
         };
     };
 };
