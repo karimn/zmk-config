@@ -60,8 +60,8 @@
             label = "RGB_UG_STATUS";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&rgb_ug RGB_STATUS>;
+            bindings = <&rgb_ug RGB_STATUS>;
+                
         };
     };
 };
@@ -104,8 +104,7 @@
             label = "BT_SELECT_0";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&out OUT_BLE>,
+            bindings= <&out OUT_BLE>,
                   <&bt BT_SEL 0>;
         };
         bt_select_1: bt_select_1 {
@@ -331,10 +330,10 @@
             bindings = <
   &none   &none   &none   &none   &none                                                                    &none   &none   &none   &none   &none
   &none   &none   &none   &none   &none   &none                                                    &none   &none   &none   &none   &none   &none
-  &none   &none   &none   &none   &none   &none                                                    &none   &none   &kp LALT(RGUI(I))   &none   &none   &none
+  &none   &none   &none   &none   &none   &none                                                    &none   &none   &kp LA(RG(I))   &none   &none   &none
   &none   &none   &none   &none   &none   &none                                                    &none   &none   &none   &none   &none   &none
-  &none   &none   &none   &kp LSHFT(RCTRL(C))     &none   &none   &none   &none   &none   &none   &none    &none   &none   &kp LSHFT(RCTRL(M))  &none   &none   &none   &none
-  &none   &none   &none   &none   &none           &none   &none   &none   &none   &none  &kp LSHFT(RGUI(RET))           &none   &none   &none   &none   &none
+  &none   &none   &none   &kp LS(RC(C))     &none   &none   &none   &none   &none   &none   &none    &none   &none   &kp LS(RC(M))  &none   &none   &none   &none
+  &none   &none   &none   &none   &none           &none   &none   &none   &none   &none  &kp LS(RG(RET))           &none   &none   &none   &none   &none
             >;
         };
 
